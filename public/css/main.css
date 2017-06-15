@@ -1,0 +1,64 @@
+.main {
+    border: 1px solid darkgreen;
+    margin:0 20%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.header-body {
+    background-color: #418b33;
+    color: white;
+    padding:30px 0 5px 10px;
+
+}
+
+.header-body a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    /*font-weight: bold;*/
+}
+
+.menu-body {
+    background-color: #d0d0d0;
+}
+
+.menu-body a {
+    text-decoration: none;
+    color: lightslategray;
+    background-color: whitesmoke;
+}
+
+.favicon-false, .favicon-true {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    background-size: 20px 20px;
+    margin-right: 8px;
+}
+
+.favicon-true {
+    background-image: url(../img/star-filled.png);
+}
+.favicon-false {
+    background-image: url(../img/star-empty.png);
+}
+
+.contact-block {
+    height: 600px;
+}
+.contact-block input{
+    margin-bottom:10px;
+
+}
+
+.fav-category {
+    background-color: #aaaaaa;
+    height: 24px;
+    margin-top: 20px;
+    font: italic 16px/1.5 Arial,sans-serif;
+    padding-left: 10px;
+}
