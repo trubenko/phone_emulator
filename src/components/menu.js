@@ -12,7 +12,6 @@ class Menu extends Component{
                     <Link className="col-xs-4" to="/favs">favorites</Link>
                     <Link className="col-xs-4" activeClassName="active" to="/contacts">contacts</Link>
                 </div>
-
         )
     }
 }

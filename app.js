@@ -12,7 +12,7 @@ var webpackMW = require('webpack-dev-middleware'),
 require('./src/enties');
 
 let mongoose = require('mongoose');
-const Contact = require('./Models/Contact');
+const Contact = require('./database/models/Contact');
 
 mongoose.Promise = global.Promise;
 
@@ -217,15 +217,11 @@ app.route('/contacts')
 app.route('/contacts/:id')
     .get(function (req, res) {
         Contact.findById(req.params.id, function (err, contact) {
-
-            res.json(contact);
-        })
-
+                res.json(contact);
+            })
     })
     .put(function (req, res) {
-
-        Contact.findByIdAndUpdate({_id: req.params.id}, req.body,
-            function (err, updated) {
+        Contact.findByIdAndUpdate({_id: req.params.id}, req.body, function (err, updated) {
                 res.json(updated);
             })
     })

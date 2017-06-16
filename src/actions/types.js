@@ -1,3 +1,4 @@
 export const CREATE_CONTACT = 'CREATE_CONTACT';
+export const FETCH_CONTACT = 'FETCH_CONTACT';
 export const LOAD_CONTACTS = 'LOAD_CONTACTS';
 export const UPDATE_CONTACT = 'UPDATE_CONTACT';

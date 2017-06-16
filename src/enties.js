@@ -1,7 +1,7 @@
 let _ = require('lodash');
 let faker = require('faker');
 let mongodb = require('mongodb');
-let Contact = require('../Models/Contact');
+let Contact = require('./Contact');
 
 const MIN_CONTACTS = 10;
 const CONTACTS_TO_ADD = 100;

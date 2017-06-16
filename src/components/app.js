@@ -10,6 +10,7 @@ class App extends Component {
                 <Header/>
                 <Menu />
                 { this.props.children }
+
             </div>
         )
     }

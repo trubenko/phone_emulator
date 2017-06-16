@@ -4,6 +4,7 @@ import {bindActionCreators} from 'redux'
 import {load_contacts } from '../actions/index'
 
 import Contact from './contact';
+import Bottom from './bottom'
 
 class Contacts extends Component {
     constructor(props) {
@@ -25,6 +26,7 @@ class Contacts extends Component {
     }
 
 
+
     render() {
 
         if (!this.props.contacts.length) return null;
@@ -43,6 +45,7 @@ class Contacts extends Component {
                 <ul className="list-group">
                     { list }
                 </ul>
+                <Bottom />
             </div>)
     }
 }

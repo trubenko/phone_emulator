@@ -5,6 +5,8 @@ import Journal from './components/journal'
 import Favorites from './components/favorites'
 import Contacts from './components/contacts'
 import ContactNew from './components/contact_new'
+import ContactCard from './components/contact_card'
+
 
 
 export default (
@@ -14,6 +16,6 @@ export default (
         <Route path="/favs" component={Favorites}/>
         <Route path="/contacts" component={Contacts}/>
         <Route path="/contacts/new" component={ContactNew}/>
-        <Route path="/contacts/:id" component={Contacts}/>
+        <Route path="/contacts/:id" component={ContactCard}/>
     </Route>
 )

@@ -8,6 +8,7 @@ class Favorites extends Component {
         this.props.load_contacts();
     }
 
+
     filterContacts(contacts) {
         return contacts.filter(function (contact) {
             return contact.favorite
@@ -40,7 +41,7 @@ class Favorites extends Component {
             <div>
                 <div className="fav-category">Favorites</div>
                 { favs    }
-                <div className="fav-category">Favorites</div>
+                <div className="fav-category">Most frequently used</div>
                 { freqUsed }
             </div>
         )
