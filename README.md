@@ -27,5 +27,5 @@ All records will be created randomly.
 - react-router
 - axios 
 
-#Preview
+# Preview
 ![gif](https://user-images.githubusercontent.com/14979770/27259215-34830e78-5416-11e7-8d80-1e7298385747.png)
